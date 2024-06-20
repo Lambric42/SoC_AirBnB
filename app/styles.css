@@ -67,3 +67,13 @@ header {
 .separator {
     margin: 3px;
 }
+.categoriesBar{
+    display: flex; 
+    overflow-x: auto;
+    overflow-x: hidden;
+    white-space: nowrap;
+    width: 100%;
+    max-width: 750px;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
