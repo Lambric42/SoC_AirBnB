@@ -51,3 +51,19 @@ header {
    font-size: 18px;
    margin-right: 10px;
 }
+.searchBarText{
+    display: flex;
+    flex-direction: column;
+}
+.searchBarTextUpper {
+    font-family: cerealMedium;
+    font-size: 14px;
+}
+.searchBarTextLower {
+    font-family: cerealBook;
+    font-size: 12px;
+    color: grey;
+}
+.separator {
+    margin: 3px;
+}
