@@ -28,7 +28,8 @@ header {
     right: 0;
     justify-content: center;
     max-width: 750px;
-}.headerSearchBar {
+}
+.headerSearchBar {
     display: flex;
     align-items: center;
     background: white;
@@ -92,6 +93,14 @@ header {
     font-family: cerealBold;
     font-size: 12px;
     margin: 5px;
-}.categorySection.selected {
+}
+.categorySection.selected {
     opacity: 1;
 }
+.scrollBarMarker{
+    border-bottom: 2px solid black;
+    bottom: 0;
+    width: 30px;
+    margin-left: 5px;
+}
+
