@@ -92,4 +92,6 @@ header {
     font-family: cerealBold;
     font-size: 12px;
     margin: 5px;
+}.categorySection.selected {
+    opacity: 1;
 }
