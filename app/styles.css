@@ -28,4 +28,26 @@ header {
     right: 0;
     justify-content: center;
     max-width: 750px;
+}.headerSearchBar {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px 0;
+    position: relative;
+    max-width: 750px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.searchBarIcon{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: white;  
+   color: black;
+   border: none;
+   padding: 10px;  
+   border-radius: 50%;
+   font-size: 18px;
+   margin-right: 10px;
 }
