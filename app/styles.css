@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "cerealBold";
+    src: url('./assets/Fonts/Airbnb_Cereal-Bold.woff2') format('woff2');
+}
+@font-face {
+    font-family: "cerealBook";
+    src: url('./assets/Fonts/Airbnb_Cereal-Book.woff2') format('woff2');
+}
+@font-face {
+    font-family: "cerealMedium";
+    src: url('./assets/Fonts/Airbnb_Cereal-Medium.woff2') format('woff2');
+}
