@@ -111,12 +111,47 @@ main{
     max-width: 750px;
     min-width: 400px;
 }
-.listingContainer{
-    height: 400px;
-    overflow: hidden;
+.listing{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
 }
-.listingContainer img{
-    width:  300px;
-    height: 300px;
-    border-radius: 12px;
+.listingContainer {
+    position: relative; 
+    flex: 1 1 calc(50% - 20px);
+    box-sizing: border-box;
+}
+.listingContainer img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 20 px;
 } 
+.liveOverlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: white;
+    color: black;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-size: 14px;
+    opacity: .9;
+    font-family: cerealBook;
+}
+.listingName{
+    font-family: cerealMedium;
+    font-size: 15px;
+}
+.listingHost{
+    font-family: cerealBook;
+    font-size: 15px;
+    color: grey;
+}
+.listingStatus{
+    font-family: cerealMedium;
+    font-size: 15px;
+}
