@@ -103,7 +103,8 @@ header {
     width: 30px;
     margin-left: 5px;
 }
-/*you may have noticed all of the commits for tasks 3-10 were done quite quickly.
-this was not the reality, i'm just not used to committing every few changes.
-all content up to here was pre-written and pasted in as it was commited.
-i will try to commit more regularly */
+main{
+    background: red;
+    padding-top: 20px;
+
+}
