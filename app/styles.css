@@ -121,13 +121,12 @@ main{
 .listingContainer {
     position: relative; 
     flex: 1 1 calc(50% - 20px);
-    box-sizing: border-box;
 }
 .listingContainer img {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
-    border-radius: 20px;
+    border-radius: 14px;
 } 
 .liveOverlay {
     position: absolute;
@@ -136,11 +135,15 @@ main{
     background: white;
     color: black;
     border: none;
-    padding: 5px 15px;
+    padding: 7px 15px;
     border-radius: 30px;
     font-size: 14px;
-    opacity: .9;
+    opacity: .8;
     font-family: cerealBook;
+}
+.listingText {
+    display: flex;
+    flex-direction: column;
 }
 .listingName{
     font-family: cerealMedium;
@@ -152,6 +155,24 @@ main{
     color: grey;
 }
 .listingStatus{
+    font-family: cerealBook;
+    font-size: 15px;
+}
+.listingStatusBold{
     font-family: cerealMedium;
     font-size: 15px;
+}
+.shareButton{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 50px;
+    font-size: 14px;
+    opacity: .8;
 }
