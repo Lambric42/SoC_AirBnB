@@ -214,4 +214,27 @@ h1{
     font-family: cerealBook;
     color: rgb(47, 47, 47);
 }
-sdf
+.lowerNavBar {
+    background: white;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    max-width: 750px;
+    z-index: 100;
+}
+.lowerNavBarButtons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 750px;
+    padding: 0 20px;
+}
+.lowerNavBarButtons button {
+    border: none;
+    font-size: 18px;
+    font-family: cerealBook;
+}
