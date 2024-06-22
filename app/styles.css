@@ -201,9 +201,16 @@ main{
 .dotMedium {
     height: 5px;
     width: 5px;
-    
 }
 .dotSmall {
     height: 4px;
     width: 4px;
+}
+.pastExperiences{
+    padding-bottom: 100px;
+    background: red;
+}
+h1{
+    font-family: cerealBook;
+    color: rgb(47, 47, 47);
 }
