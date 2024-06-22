@@ -176,3 +176,34 @@ main{
     font-size: 14px;
     opacity: .8;
 }
+.fiveDotOverlay{
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.dot {
+    background: white;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+}
+.opaque{
+    opacity: 1;
+}
+.transparent {
+    opacity: 0.5;
+}
+.dotMedium {
+    height: 5px;
+    width: 5px;
+    
+}
+.dotSmall {
+    height: 4px;
+    width: 4px;
+}
