@@ -287,3 +287,32 @@ h1{
     background-color: rgb(215, 215, 215);
     height: 1px;
 }
+.footerLocationContainer {
+    padding-top: 20px;
+}
+.footerLocationSection {
+    display: block;
+}
+.footerLocationGrid {
+    margin-left: 10px ;
+    padding: 0;
+    grid-template-columns: repeat(2,minmax(0, 1fr));
+    gap: 24px 8px;
+    display: grid;
+    list-style: none;
+}
+.footerLocationGridItem {
+    display: flex;
+    flex-direction: column;
+    
+}
+.locationTextUpper {
+    font-family: cerealMedium;
+    font-size: 15px;
+    color: rgb(78, 78, 78)
+}
+.locationTextLower {
+    font-family: cerealBook;
+    font-size: 15px;
+    color: grey;
+}
