@@ -313,14 +313,10 @@ h1{
     font-size: 15px;
     color: grey;
 }
-.quickLinksLineBreak {
-    background-color: rgb(215, 215, 215);
-    height: 1px;
-    margin-left: 10px;
-}
-.quickLinksSupport {
+.quickLinksSection {
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-left: 10px;
 }
 .quickLinksGrid {
     display: grid;
@@ -330,5 +326,8 @@ h1{
     font-family: cerealBook;
     font-size: 14px;
     color: rgb(64, 62, 62)
-
+}
+.lineBreak {
+    background-color: rgb(215, 215, 215);
+    height: 1px;
 }
