@@ -283,12 +283,9 @@ h1{
     bottom: 0;
     width: 50px;
 }
-.lineBreak {
-    background-color: rgb(215, 215, 215);
-    height: 1px;
-}
 .footerLocationContainer {
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 .footerLocationSection {
     display: block;
@@ -315,4 +312,23 @@ h1{
     font-family: cerealBook;
     font-size: 15px;
     color: grey;
+}
+.quickLinksLineBreak {
+    background-color: rgb(215, 215, 215);
+    height: 1px;
+    margin-left: 10px;
+}
+.quickLinksSupport {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.quickLinksGrid {
+    display: grid;
+    padding-inline: unset;
+    list-style: none;
+    gap: 12px;
+    font-family: cerealBook;
+    font-size: 14px;
+    color: rgb(64, 62, 62)
+
 }
