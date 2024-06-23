@@ -243,4 +243,36 @@ h1{
 .red {
     color: red
 }
-
+.footerHeader {
+    background: white;
+    padding: 10px 10px;
+    padding-bottom: 0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    border-top: 8px;
+    justify-content: center;
+    max-width: 750px;
+}
+.footerHeaderTitle {
+    font-family: cerealBook;
+    font-size: 22px
+}
+.footerHeaderCategoriesBar{
+    display: flex; 
+    
+    width: 100%;
+    max-width: 750px;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+.footerHeaderCategory {
+    margin-right: 10px;
+    opacity: 0.64;
+}
+.footerHeaderCategoryText{
+    font-family: cerealBold;
+    font-size: 14px;
+    margin-right: 15px;
+}
+.footerHeaderCategoriesBar .selected {
+    opacity: 1;
+}
