@@ -331,3 +331,39 @@ h1{
     background-color: rgb(215, 215, 215);
     height: 1px;
 }
+.legalLinksContainer {
+    padding-top: 10px;
+    padding-bottom: 100px;
+    max-width: 750px;
+}
+.legalLinks {
+    font-family: cerealBook;
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 10px
+}
+.legalLinks button{
+    border: none;
+    font-family: cerealBook;
+    font-size: 14px;
+    color: black;
+    margin-top: 10px; 
+}
+.legalLinks.Text.List{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: cerealBook;
+    font-size: 14px;
+    line-height: 26px;
+    
+}
+.legalLinksList li {
+    display: flex;
+    align-items: left;
+}
+.separator2 {
+    margin: 10px;
+}
