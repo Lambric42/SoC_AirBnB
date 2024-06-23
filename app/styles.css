@@ -258,15 +258,17 @@ h1{
 }
 .footerHeaderCategoriesBar{
     display: flex; 
-    
+    justify-content: space-evenly;
     width: 100%;
     max-width: 750px;
     margin-top: 20px;
     margin-bottom: 7px;
+    box-shadow: 1 1px 2px rgba(0,0,0,0.1);
 }
 .footerHeaderCategory {
     margin-right: 10px;
     opacity: 0.64;
+
 }
 .footerHeaderCategoryText{
     font-family: cerealBold;
@@ -275,4 +277,13 @@ h1{
 }
 .footerHeaderCategoriesBar .selected {
     opacity: 1;
+}
+.scrollBarMarkerWide {
+    border-bottom: 2px solid black;
+    bottom: 0;
+    width: 50px;
+}
+.lineBreak {
+    background-color: rgb(215, 215, 215);
+    height: 1px;
 }
