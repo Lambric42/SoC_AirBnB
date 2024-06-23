@@ -216,7 +216,7 @@ h1{
 }
 .lowerNavBar {
     background: white;
-    padding: 20px;
+    padding: 10px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -226,15 +226,22 @@ h1{
     max-width: 750px;
     z-index: 100;
 }
-.lowerNavBarButtons{
+.lowerNavBarButtons {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
     max-width: 750px;
-    padding: 0 20px;
+    padding: 10px 0px;
 }
 .lowerNavBarButtons button {
     border: none;
-    font-size: 18px;
+    font-size: 24px;
+}
+.lowerNavBarText {
+    font-size: 11px;
     font-family: cerealBook;
 }
+.red {
+    color: red
+}
+
