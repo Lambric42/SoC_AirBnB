@@ -235,6 +235,7 @@ h1{
 .lowerNavBarButtons button {
     border: none;
     font-size: 24px;
+    background-color: white;
 }
 .lowerNavBarText {
     font-size: 11px;
